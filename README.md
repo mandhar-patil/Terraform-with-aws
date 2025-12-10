@@ -5,15 +5,13 @@ This repository is your one-stop solution for learning and using Terraform for D
 1. Setup & Initialization
 Install Terraform
 
-Linux & macOS:
+For Linux & macOS:
 
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 sudo apt-get update && sudo apt-get install terraform
 
-
-Verify Installation:
-
+Verify Installation
 terraform -v
 
 Initialize Terraform
@@ -45,4 +43,4 @@ terraform show        # Shows detailed resource info
 
 Manually Modify State
 terraform state mv <source> <destination>  # Move resource in state file
-terraform state rm <resource>              # Removes resource from state (not from 
+terraform state rm <resource>              # Removes resource from state (not fr
