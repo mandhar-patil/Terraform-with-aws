@@ -1,3 +1,4 @@
+#MAKE SURE THIS BACKEND INSIDE THE FOLDER WHERE STATEFILE IS PRESENT
 terraform {
   backend "s3" {
     bucket         = "eks-terraform-state1"
